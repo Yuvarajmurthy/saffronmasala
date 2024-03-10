@@ -1,0 +1,70 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.header{
+background-color: lightsalmon;
+color: azure;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding:5%;
+font-size: 8vb;
+
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: rgb(255, 224, 183);
+    justify-content: space-around;
+    padding: 2%;
+    align-items: baseline;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.home,.Menu,.Tracking{
+  padding: 0.5%;
+  background-color: black;
+  color: bisque;
+  cursor: pointer;
+
+}
+
+.navigation a{
+    color: azure;
+    text-decoration: none;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    flex: 1;
+}
+
+.search-text{
+    align-items: center;
+    padding: 1%;
+    font-size: medium;
+    padding-left: 5%;
+    border-radius: 30px;
+    border-style: none;
+    width: 100%;
+}
+
+.search-icon{
+    background-color: rgb(199, 190, 190);
+    color: white ;
+    border-style: none;
+    padding: 1.5%;
+    border-radius: 5px;
+}

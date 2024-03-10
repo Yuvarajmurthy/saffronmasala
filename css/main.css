@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+}
+
+.main{
+display: grid;
+
+}
+.heading{
+    display: grid;
+    background-color: rgb(244, 242, 240);
+}
+
+.Tandoori-delights{
+    display: grid;
+    grid-template: repeat(5,1fr)/ repeat(2,1fr);
+    margin: 2%;
+    gap: 2% 1%;
+}
+
+@media (max-width: 300px) {
+    .Tandoori-delights{
+        grid-template: repeat(6,1fr)/ repeat(1,1fr);
+    }
+    
+}
+
+@media (min-width: 301px) AND (max-width: 700px) {
+    .Tandoori-delights{
+        grid-template: repeat(3,1fr)/ repeat(2,1fr);
+    }
+}
+
+@media (min-width: 701px) AND (max-width: 999px) {
+    .Tandoori-delights{
+        grid-template: repeat(3,1fr)/ repeat(3,1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .Tandoori-delights{
+        grid-template: repeat(2,1fr)/ repeat(4,1fr);
+    }
+}
+
+
+.sub-heading{
+display: grid;
+background-color: white;
+padding: 5%;
+}
+
+.title{
+background-color: rgb(226, 246, 246);
+color: rgb(24, 24, 16);
+font-weight: 700;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+padding: 1%;
+margin: 10px 30px;
+margin-top: 20px;
+}
+
+.product{
+   padding: 1%; 
+   background-color: gray;
+   color: white;
+   font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product-img{
+width: 100%;
+}
+
+.discription{
+
+ color: gray;
+ text-align: center;
+ padding: 5%;
+ margin-top: 3px;
+ font-style: italic;
+}
+
+.price{
+padding: 3%;
+
+}
+
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+     padding: 5px;
+}
+
+.btn-buy,.btn-cart{
+ background-color: black;
+ color: aliceblue;
+ border-radius: 30px;
+ border-style: none;
+ padding: 8px;
+}
+
+.btn-cart{
+background-color: orange;
+color: aliceblue;
+}
