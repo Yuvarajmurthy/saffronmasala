@@ -11,8 +11,50 @@ flex-wrap: wrap;
 justify-content: center;
 padding:5%;
 font-size: 8vb;
-
 }
+
+@media (max-width: 430px) {
+    .header{
+        padding:3.5%;
+        font-size: 6vb;
+    }
+
+    .navigation{
+        padding: 2.5%;
+        padding-right: 2%;
+    }
+
+    .home,.Menu,.Tracking{
+        padding: 1.5%;
+      }
+
+      .search-text{
+        padding: 3%;
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 750px) {
+    .header{
+        padding:5%;
+        font-size: 8vb;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .header{
+        padding:5%;
+        font-size: 8vb;
+    }
+}
+
+@media (min-width: 1000px) {
+    .Tandoori-delights {
+        grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    }
+}
+
+
 
 .navigation{
     display: flex;

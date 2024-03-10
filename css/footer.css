@@ -6,13 +6,20 @@
 .footer{
     display: flex;
     background-color: black;
-    justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    justify-content: center; 
     margin-top: 3%;
+}
+
+@media (max-width: 430px) {
+    .footer{
+       flex-flow:1 1;
+
+    }
 }
 
 .copyrights{
    color: white;
    align-items: center;
+   padding-top: 5%;
+   padding-left: 5%;
 }
