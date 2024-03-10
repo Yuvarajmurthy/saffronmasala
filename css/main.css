@@ -23,30 +23,28 @@ display: grid;
 }
 
 @media (max-width: 300px) {
-    .Tandoori-delights{
-        grid-template: repeat(6,1fr)/ repeat(1,1fr);
-    }
-    
-}
-
-@media (min-width: 301px) AND (max-width: 700px) {
-    .Tandoori-delights{
-        grid-template: repeat(3,1fr)/ repeat(2,1fr);
+    .Tandoori-delights {
+        grid-template: repeat(6, 1fr) / repeat(1, 1fr);
     }
 }
 
-@media (min-width: 701px) AND (max-width: 999px) {
-    .Tandoori-delights{
-        grid-template: repeat(3,1fr)/ repeat(3,1fr);
+@media (min-width: 301px) and (max-width: 700px) {
+    .Tandoori-delights {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
     }
 }
 
-@media (max-width: 1000px) {
-    .Tandoori-delights{
-        grid-template: repeat(2,1fr)/ repeat(4,1fr);
+@media (min-width: 701px) and (max-width: 999px) {
+    .Tandoori-delights {
+        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     }
 }
 
+@media (min-width: 1000px) {
+    .Tandoori-delights {
+        grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    }
+}
 
 .sub-heading{
 display: grid;
