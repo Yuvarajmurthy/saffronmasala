@@ -22,19 +22,19 @@ display: grid;
     gap: 2% 1%;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .Tandoori-delights {
         grid-template: repeat(6, 1fr) / repeat(1, 1fr);
     }
 }
 
-@media (min-width: 301px) and (max-width: 700px) {
+@media (min-width: 501px) and (max-width: 750px) {
     .Tandoori-delights {
         grid-template: repeat(3, 1fr) / repeat(2, 1fr);
     }
 }
 
-@media (min-width: 701px) and (max-width: 999px) {
+@media (min-width: 751px) and (max-width: 999px) {
     .Tandoori-delights {
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     }
