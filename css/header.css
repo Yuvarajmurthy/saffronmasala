@@ -27,6 +27,12 @@ position: relative;
 }
 
 @media (max-width: 430px) {
+    .header{
+        padding:5%;
+        font-size: 6vh;
+        position: relative;
+        }
+
     .navigation{
         padding: 2.5%;
         padding-right: 2%;
