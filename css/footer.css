@@ -4,16 +4,14 @@
 }
 
 .footer{
-    display: flex;
+    display: grid;
     background-color: black;
-    justify-content: center; 
-    margin-top: 3%;
-    padding-top: 5%;
-    padding-left: 5%;
+    grid-template: repeat(2,1fr)/ repeat(1,1fr);
+    padding: 5%;
 }
 
 .copyrights{
    color: white;
-   align-items: center;
-   
+   text-align: center; 
+   font-size: 4.5vh;
 }
